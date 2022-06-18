@@ -40,12 +40,6 @@ def printtext(text, wait, new_line):
     if new_line == 1:
         print('')
 
-# Prints text followed by ellipsis
-def ellipsis(dots):
-    for i in range(dots):
-        print('.', end='', flush=True)
-        time.sleep(time)
-
 # Removes player column from group, randomly shuffles the remaining 2,
 # then re-inserts user column
 def shuffle_columns():
